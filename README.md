@@ -21,6 +21,12 @@ Open the app and use the top navigation or visit the routes directly.
 - `/signup-practice` – Practice: Confirm Password
 - `/signup-stretch` – Stretch: Terms Checkbox
 
+## Main Page
+
+The Home page presents a simple list of cards for each lab and demo with short descriptions and buttons that navigate to the corresponding route.
+
+![Main Page](./screenshots/main-page.png)
+
 ## Micro-Labs
 
 ### Micro-Lab 1 – Counter
