@@ -1,0 +1,72 @@
+/* Shared UI styles */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: left;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.section {
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  background: #111;
+}
+
+.section h2 {
+  margin: 0 0 8px 0;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="password"] {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #0a0a0a;
+  color: #fff;
+}
+
+.error-text {
+  color: tomato;
+  font-size: 0.9rem;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  padding: 8px 12px;
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.list {
+  padding-left: 18px;
+}
+
+
